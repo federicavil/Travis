@@ -1,5 +1,4 @@
 language: java
 jdk:
   - openjdk14
-script:
-- mvn -X clean install
+script: "mvn test -B"
