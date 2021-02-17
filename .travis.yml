@@ -1,4 +1,5 @@
 language: java
 jdk:
-- openjdk14
-script: ant build
+  - openjdk14
+script:
+- mvn -X clean install
