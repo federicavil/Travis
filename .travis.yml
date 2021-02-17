@@ -2,8 +2,9 @@ language: java
 jdk:
   - openjdk14
 addons:
- organization: federicavil
- token: 7183163b9e945815ae1ca8275aa86c59988b55cc
+ sonarcloud:
+  organization: federicavil
+  token: 7183163b9e945815ae1ca8275aa86c59988b55cc
 script: 
 - mvn -X clean install
 - sonar-scanner
