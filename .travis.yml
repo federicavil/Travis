@@ -6,4 +6,4 @@ addons:
   7183163b9e945815ae1ca8275aa86c59988b55cc
 script: 
 - mvn -X clean install
-- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=federicavil_Travis
+- sonar-scanner
